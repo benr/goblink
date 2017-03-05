@@ -4,7 +4,7 @@ import (
   "fmt"
   "time"
   "os"
-  import "github.com/stianeikeland/go-rpio"
+  "github.com/stianeikeland/go-rpio"
 )
 
 func main() {
