@@ -11,7 +11,7 @@ func main() {
 
   fmt.Println("Starting blinker...");
   err := rpio.Open();
-  if (err !+ nil){
+  if (err != nil) {
     fmt.Println(err);
     os.Exit(1);
   }
